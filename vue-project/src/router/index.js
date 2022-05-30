@@ -15,7 +15,7 @@ const router = createRouter({
       path: "/post/:title",
       name: "post",
       component: Post,
-      props: true
+      props: route => ({ query: route.query.q })
     },
   ],
 });

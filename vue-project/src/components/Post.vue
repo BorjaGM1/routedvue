@@ -2,6 +2,7 @@
   <div>
     <span>Post view</span>
     {{$route.params.title}}
+    <p>Espacio</p>
   </div>
 </template>
 
